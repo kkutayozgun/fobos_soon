@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-19 20:55+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: config/settings/base.py:123
+msgid "Türkçe"
+msgstr "Turkish"
+
+#: config/settings/base.py:124
+msgid "English"
+msgstr "English"
+
+#: templates/home.html:19
+msgid "Fobos"
+msgstr "Fobos"
+
+#: templates/home.html:48
+msgid "Çok Yakında Yayındayız!"
+msgstr "Coming Soon!"
+
+#: templates/home.html:50
+msgid ""
+"Sizlere benzersiz bir deneyim sunmak için web sitemizi hazırlıyoruz."
+"<br>Detaylı bilgi için <a href=\"mailto:info@fobos.com.tr\">info@fobos.com."
+"tr</a> üzerinden bize ulaşabilirsiniz."
+msgstr ""
+"We are preparing our website to offer you a unique experience.<br>For "
+"detailed information, you can contact us via <a href=\"mailto:info@fobos.com."
+"tr\">info@fobos.com.tr</a>."
+
+#: templates/home.html:58
+msgid "TTAF.com.tr'ye git"
+msgstr "Go to TTAF.com.tr"
