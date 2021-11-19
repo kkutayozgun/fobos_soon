@@ -1,0 +1,96 @@
+<!doctype html>
+{% load static %}
+{% load i18n %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="ThemeStarz">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700">
+
+    <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'assets/fonts/font-awesome.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'assets/css/parallax-hero.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/user.css' %}">
+
+    <title>{% trans 'Fobos' %}</title>
+
+</head>
+<body class="side-panel-light has-loading-screen color-theme-blue" data-background-color="#002254">
+
+<!--PAGE-->
+
+<div id="page">
+    <div class="page-wrapper">
+        <figure class="page-wrapper-inner">
+            <div class="base-layer">
+                <canvas id="displayCanvas"></canvas>
+            </div>
+            <!--end layer-->
+            <div class="layer animate pointer-events-none">
+                <div id="particles-js"></div>
+            </div>
+            <!--end layer-->
+            <div class="layer animate">
+                <div id="content">
+                    <div class="content-wrapper">
+                        <div class="container">
+                            <div class="brand">
+                                <a href="#">
+                                    <img src="{% static 'assets/img/logo.png' %}" alt="">
+                                </a>
+                            </div>
+                            <!--end brand-->
+                            <div class="heading">
+                                <h1 class="large">{% trans "Çok Yakında Yayındayız!" %}</h1>
+                                <p>
+                                    {% blocktrans trimmed %}
+                                    Sizlere benzersiz bir deneyim sunmak için web sitemizi hazırlıyoruz.<br>Detaylı
+                                    bilgi için <a href="mailto:info@fobos.com.tr">info@fobos.com.tr</a> üzerinden bize ulaşabilirsiniz.
+                                    {% endblocktrans %}
+                                </p>
+                            </div>
+                            <!--end heading-->
+                            <a href="https://ttaf.com.tr/" class="btn btn-border"
+                               target="_blank">{% trans "TTAF.com.tr'ye git" %}</a>
+                        </div>
+                        <!--end container-->
+                    </div>
+                    <!--end content-wrapper-->
+                </div>
+                <!--end content-->
+            </div>
+            <!--end layer-->
+        </figure>
+        <!--end cd-floating-background-->
+    </div>
+    <!--end cd-background-wrapper-->
+</div>
+<!--end page-->
+
+
+<script src="{% static 'assets/js/jquery-2.1.1.js' %}"></script>
+<script type="text/javascript" src="{% static 'assets/bootstrap/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'assets/js/pace.min.js' %}"></script>
+<script src="{% static 'assets/js/parallax-hero.js' %}"></script>
+<script src="{% static 'assets/js/modernizr.js' %}"></script>
+<script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'assets/js/particle-sphere.js' %}"></script>
+<script src="{% static 'assets/js/custom.js' %}"></script>
+
+<script type="text/javascript">
+
+    // RGB Color
+    var r = 51;
+    var g = 200;
+    var b = 240;
+    var backgroundColor = "#002254";
+    window.addEventListener("load", particleSphree(r, g, b, backgroundColor), false);
+
+</script>
+
+</body>
+</html>
